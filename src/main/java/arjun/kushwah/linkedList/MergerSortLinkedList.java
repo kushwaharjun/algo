@@ -51,7 +51,7 @@ public class MergerSortLinkedList {
 			right.next=sortedMerge(right.next,left );
 		}
 			
-		return right;
+		return result;
 	}
 
 	private Node getMiddleNode(Node head) {
