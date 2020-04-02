@@ -25,10 +25,11 @@ There is only one duplicate number in the array, but it could be repeated more t
 public class FirstDublicateInArray {
 	int firstDublicate(int []arr) {
 		for(int i=0;i<arr.length;i++) {
-			if(arr[Math.abs(arr[i])-1]<0) {
+			int index=Math.abs(arr[i])-1;
+			if(arr[index]<0) {
 				return Math.abs(arr[i]);
 			}else {
-				arr[Math.abs(arr[i])-1]=-arr[Math.abs(arr[i])-1];
+				arr[index]=-arr[index];
 			}
 		}
 		return -1;
