@@ -8,15 +8,21 @@ public class IsBST {
 	}
 	Node prev=null;
 	boolean isBST(Node root) {
-		if(!isBST(root.left)) {
+		if(root !=null){
+			if(!isBST(root.left)) {
+				return false;
+			}
+			
+			if(prev!=null && root.data<prev.data) {
 			return false;
-		}
-		if(prev!=null && root.data<prev.data) {
-			return false;
-		}
+			}
 		prev=root;
+			
 		return isBST(root.right);
+		}
+		return true;
 	}
+		
 
 	public static void main(String[] args) {
 
