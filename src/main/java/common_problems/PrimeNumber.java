@@ -1,4 +1,4 @@
-package problems;
+package common_problems;
 
 public class PrimeNumber {
 	public void checkPrime(long num) {

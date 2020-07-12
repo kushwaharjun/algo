@@ -1,4 +1,4 @@
-package problems;
+package common_problems;
 
 // Program to find n-th stair 
 // using step size 1 or 2 or 3. 

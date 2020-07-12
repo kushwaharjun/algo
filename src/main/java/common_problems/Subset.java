@@ -1,4 +1,4 @@
-package problems;
+package common_problems;
 
 public class Subset {
 	static void printSubsets(char set[]) {

@@ -1,4 +1,4 @@
-package problems;
+package common_problems;
 
 import java.util.Hashtable;
 import java.util.Map;
