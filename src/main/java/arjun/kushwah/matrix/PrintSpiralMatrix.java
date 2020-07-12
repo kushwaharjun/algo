@@ -1,4 +1,4 @@
-package arjun.kushwah.array;
+package arjun.kushwah.matrix;
 
 public class PrintSpiralMatrix {
 	static void spiralOrder(int arr[][]) {
