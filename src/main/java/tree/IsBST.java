@@ -12,8 +12,8 @@ public class IsBST {
 			if(!isBST(root.left)) {
 				return false;
 			}
-			
-			if(prev!=null && root.data<prev.data) {
+			// <= for 2,2,2
+			if(prev!=null && root.data<=prev.data) {
 			return false;
 			}
 		prev=root;
