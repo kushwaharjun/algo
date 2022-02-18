@@ -3,7 +3,7 @@ package problems;
 class NumOfIslands {
 	public static void main(String args[]) {
 		char arr[][]={
-				   {'1','1','0','0','0'},
+	               {'1','1','0','0','0'},
 	               {'0','1','1','0','0'},
 	               {'0','0','1','0','1'},
 	               {'1','0','0','0','1'},
